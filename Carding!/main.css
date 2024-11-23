@@ -1,0 +1,25 @@
+#default {
+    text-align: center;
+}
+#xzoom-default {
+    width: 40%;
+    margin-top: 20px;
+    transition: background 0.5s;
+}
+.xzoom-thumbs {
+    padding: 2rem 3rem;
+}
+.xzoom-container {
+    width: 50%;
+    height: 35rem;
+    background: hsla(235, 65%, 7%, 0.653);
+    border-radius: 2.5rem;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.7);
+    position: relative;
+    left: 27%;
+
+    margin-top: 120px;
+}
+body {
+    background-color: beige;
+}
