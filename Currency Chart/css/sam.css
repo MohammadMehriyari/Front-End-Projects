@@ -1,0 +1,60 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    justify-self: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.Select-currency {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.Distance {
+    margin-left: 20px;
+}
+
+.Time-selection {
+    margin-left: 20px;
+    width: 80px;
+    height: 23px;
+}
+
+.label-Currency {
+    margin-left: 20px;
+}
+
+.chart-container {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#loading {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading img {
+    width: 100px;
+    height: 100px;
+}
